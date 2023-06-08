@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.bigger-text {
+  font-size: 40px;
+  color: rgb(194, 44, 44);
+}
+.loading-gif {
+  width: 200px; /* Adjust the width for a bigger GIF */
+  height: 200px; /* Adjust the height for a bigger GIF */
+}
+
+.first-screen {
+  display: flex;
+  background-image: url("ZUS.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
